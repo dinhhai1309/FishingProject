@@ -1355,7 +1355,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.4, z: -10}
+  m_LocalPosition: {x: 0, y: -0.02, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2909,7 +2909,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262368549}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.62, y: -2.2, z: 0}
+  m_LocalPosition: {x: -12.02, y: -2.2, z: 0}
   m_LocalScale: {x: 0.5901652, y: 0.5508382, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3740,7 +3740,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1625582383}
   - component: {fileID: 1625582382}
-  - component: {fileID: 1625582384}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -3763,6 +3762,7 @@ MonoBehaviour:
   GameManager: {fileID: 1878077714}
   endMovePosition: {x: 0, y: 0, z: 0}
   hasPlayedSound: 0
+  clickEnabledItem: 1
   allowRun: 1
   run: 0
   timeDelay: 0
@@ -3791,28 +3791,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1625582384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625582381}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52abb4329dcc7db448d488d30422905f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameManager: {fileID: 1878077714}
-  startPosition: {x: 0, y: 0, z: 0}
-  endPosition: {x: 0, y: 0, z: 0}
-  moveDuration: 2
-  elapsedTime: 0
-  clickEnabled: 0
-  isMoving: 0
-  hasPlayedSound: 0
-  soundTopic: {fileID: 1829680310}
-  soundUnderWater: {fileID: 942779183}
 --- !u!1 &1639406983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3858,7 +3836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloud: {fileID: 1666779321081668556, guid: c63555a083244104496f8980fd044050, type: 3}
-  spawnRate: 30
+  spawnRate: 5
 --- !u!1 &1647736573
 GameObject:
   m_ObjectHideFlags: 0

@@ -88,6 +88,8 @@ public class HookController : MonoBehaviour
         {
             soundTopic.mute = true; // Tắt tiếng cho AudioSource
         }
+        
+
         if (Vector3.Distance(position[currentIndex], transform.position) <= 0.1f)
         {
             switch (currentIndex)

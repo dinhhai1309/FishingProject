@@ -13,7 +13,6 @@ public class BoatAndCatBehavior : MonoBehaviour
     protected float elapsedTime = 0f; // Thời gian đã trôi qua
     private Vector3 startPosition;
     private Vector3 middleOfScreen;
-    protected bool clickEnabled = false;
     protected bool isMoving = false;
     private bool hasPlayedSoundCong= false; 
     private bool hasPlayedSoundHu = false; 
@@ -68,7 +67,6 @@ public class BoatAndCatBehavior : MonoBehaviour
             {
                 StartCoroutine(MoveBoatCatToStart( moveDuration));
                 soundHurrah.Stop();
-                clickEnabled = false;
             }
         }
     }
