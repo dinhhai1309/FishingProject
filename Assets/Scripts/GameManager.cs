@@ -5,11 +5,15 @@ public class GameManager : MonoBehaviour
     // Singleton pattern
     public static GameManager Instance { get; private set; }
     private bool complete = false;
-    private bool winBoatAndCat = false;
-    private bool moveHookComplete = false;
     private bool tabItem = false;
+
+    public void Update()
+    {
+
+    }
     private void Awake()
     {
+
         if (Instance == null)
         {
             Instance = this;
@@ -29,25 +33,6 @@ public class GameManager : MonoBehaviour
     public void SetComplete(bool value)
     {
         complete = value;
-    }
-    public bool IsWinBoatAndCat()
-    {
-        return winBoatAndCat;
-    }
-
-    public void SetWinBoatAndCat(bool value)
-    {
-        winBoatAndCat = value;
-    }
-
-    public bool IsMoveHookToStart()
-    {
-        return moveHookComplete;
-    }
-
-    public void SetMoveHookToStart(bool value)
-    {
-        moveHookComplete = value;
     }
 
     public bool IsTabItem()

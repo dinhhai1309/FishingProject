@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveAnimations : MonoBehaviour
+public class MoveAnimation : MonoBehaviour
 {
     public float moveSpeed = 2.0f;
     private Vector3 targetPosition;
@@ -11,8 +11,8 @@ public class MoveAnimations : MonoBehaviour
 
     void Start()
     {
-        minBound = new Vector3(-9.5f, 0.15f,1f);
-        maxBound = new Vector3(9.8f, -9.5f,1f);
+        minBound = new Vector3(-9.5f, 0.15f, 1f);
+        maxBound = new Vector3(9.8f, -9.5f, 1f);
         SetNewRandomTarget();
     }
 
@@ -53,5 +53,4 @@ public class MoveAnimations : MonoBehaviour
         // Đảo hướng hướng di chuyển
         targetPosition = new Vector3(transform.position.x + randomX, transform.position.y + randomY, transform.position.z);
     }
-
 }

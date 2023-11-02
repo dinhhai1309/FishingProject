@@ -2,21 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnCloud: MonoBehaviour
+public class SpawnCloud : MonoBehaviour
 {
     public GameObject cloud;
-    public float spawnRate = 2f;
+    public float spawnRate = 5f;
     private float timer = 0;
-    // Start is called before the first frame update
+
     void Start()
     {
         spawnCloud();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(timer < spawnRate)
+        if (timer < spawnRate)
         {
             timer += Time.deltaTime;
         }
@@ -28,8 +27,7 @@ public class SpawnCloud: MonoBehaviour
 
     void spawnCloud()
     {
-        Instantiate(cloud, transform.position, transform.rotation);
+        Instantiate(cloud, transform.parent.position, transform.parent.rotation);
         timer = 0;
     }
-
 }

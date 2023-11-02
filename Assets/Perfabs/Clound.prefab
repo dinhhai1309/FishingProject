@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 1666779321081668555}
   - component: {fileID: 1666779321081668552}
   - component: {fileID: 1666779321081668553}
-  - component: {fileID: 1666779321081668554}
+  - component: {fileID: 2484198313281385538}
+  - component: {fileID: 4243891182534866130}
   m_Layer: 0
   m_Name: Clound
   m_TagString: Untagged
@@ -112,7 +113,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 17.06, y: 2.07}
   m_EdgeRadius: 0
---- !u!114 &1666779321081668554
+--- !u!114 &2484198313281385538
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,8 +122,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1666779321081668556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f47f5ba962514542a37b2e6aa981a56, type: 3}
+  m_Script: {fileID: 11500000, guid: 810356e34bde16d40bdec410e6e0113e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
-  deadClound: -15
+  moveSpeed: 2
+--- !u!114 &4243891182534866130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666779321081668556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f94d1511d3dc746b1d909c4cbc4739, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deadClound: 12
