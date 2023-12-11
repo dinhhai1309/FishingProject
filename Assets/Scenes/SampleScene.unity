@@ -401,7 +401,6 @@ GameObject:
   - component: {fileID: 100209742}
   - component: {fileID: 100209741}
   - component: {fileID: 100209740}
-  - component: {fileID: 100209743}
   - component: {fileID: 100209744}
   m_Layer: 0
   m_Name: Fish2 (1)
@@ -512,22 +511,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100209736}
   m_Mesh: {fileID: 0}
---- !u!114 &100209743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100209736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &100209744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1201,7 +1184,6 @@ GameObject:
   - component: {fileID: 336597278}
   - component: {fileID: 336597277}
   - component: {fileID: 336597276}
-  - component: {fileID: 336597280}
   - component: {fileID: 336597281}
   m_Layer: 0
   m_Name: Fish1
@@ -1312,22 +1294,6 @@ Transform:
   m_Father: {fileID: 1027272465}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &336597280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336597275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &336597281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,7 +1353,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDuration: 1
   timeDelay: 10
-  checkComplete: 0
 --- !u!1 &381691575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,7 +1983,6 @@ GameObject:
   - component: {fileID: 774830550}
   - component: {fileID: 774830549}
   - component: {fileID: 774830548}
-  - component: {fileID: 774830551}
   - component: {fileID: 774830552}
   m_Layer: 0
   m_Name: Fish1 (1)
@@ -2129,22 +2093,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774830544}
   m_Mesh: {fileID: 0}
---- !u!114 &774830551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 774830544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &774830552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,7 +2934,6 @@ GameObject:
   - component: {fileID: 999949675}
   - component: {fileID: 999949674}
   - component: {fileID: 999949673}
-  - component: {fileID: 999949676}
   - component: {fileID: 999949677}
   m_Layer: 0
   m_Name: Jellyfish (1)
@@ -3097,22 +3044,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999949669}
   m_Mesh: {fileID: 0}
---- !u!114 &999949676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999949669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &999949677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3986,7 +3917,6 @@ GameObject:
   - component: {fileID: 1546057882}
   - component: {fileID: 1546057881}
   - component: {fileID: 1546057880}
-  - component: {fileID: 1546057884}
   - component: {fileID: 1546057885}
   m_Layer: 0
   m_Name: Jellyfish
@@ -4097,22 +4027,6 @@ Transform:
   m_Father: {fileID: 1027272465}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1546057884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546057879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &1546057885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4930,7 +4844,6 @@ GameObject:
   - component: {fileID: 1815134834}
   - component: {fileID: 1815134833}
   - component: {fileID: 1815134832}
-  - component: {fileID: 1815134836}
   - component: {fileID: 1815134837}
   m_Layer: 0
   m_Name: Fish2
@@ -5041,22 +4954,6 @@ Transform:
   m_Father: {fileID: 1027272465}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1815134836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815134831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac9f6f0471426be47a3942992dfc2f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  targetPosition: {x: 0, y: 0, z: 0}
-  minBound: {x: 0, y: 0}
-  maxBound: {x: 0, y: 0}
 --- !u!114 &1815134837
 MonoBehaviour:
   m_ObjectHideFlags: 0
